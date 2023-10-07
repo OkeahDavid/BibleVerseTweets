@@ -1,10 +1,10 @@
-# BibleBotTweets
+# BibleVerseTweets
 
 ---
 
 ## Description
 
-The **Bible Quote Tweeter** script is designed to post a daily Bible quote to Twitter. Every day, it selects a random quote from a provided text file and tweets it. To avoid repetition, the script ensures that the same quote is not posted within a 365-day timeframe.
+The **BibleVerseTweets** script is designed to post a daily Bible quote to Twitter. Every day, it selects a random quote from a provided text file and tweets it. To avoid repetition, the script ensures that the same quote is not posted within a 365-day timeframe.
 
 ---
 
