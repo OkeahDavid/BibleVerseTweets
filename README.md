@@ -1,5 +1,6 @@
 # BibleVerseTweets
-
+feel free to follow the twitter page:
+https://twitter.com/DOkeah60511
 ---
 
 ## Description
