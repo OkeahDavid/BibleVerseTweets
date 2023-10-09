@@ -64,7 +64,7 @@ This will select a random quote from `bible.txt` and post it to Twitter.
 
 ## Deployment
 
-The script can be integrated into a web server using Flask or any other web framework. The `main(request)` function is designed to work as an endpoint for a web application. It can be triggered daily using a scheduler or cron job to post the daily Bible quote.
+The script can be integrated into a web server using Flask or any other web framework. The `main(request)` function is designed to work as an endpoint for a web application.
 
 ---
 
