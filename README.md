@@ -2,7 +2,7 @@
 Feel free to follow the twitter page:
 
 
-https://twitter.com/DOkeah60511
+https://twitter.com/BibleBotTweets
 ---
 
 ## Description
