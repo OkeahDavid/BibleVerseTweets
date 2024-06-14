@@ -56,19 +56,12 @@ def update_log(quote):
     with open(LOG_FILE, 'a') as file:
         file.write(f"{datetime.now().strftime('%Y-%m-%d')}||{quote}\n")
 
-
-
-def main(request):
+def main():
     quote = get_daily_quote()
     result = post_tweet(quote)
     if result:
-        message = f"Successfully posted tweet with ID: {result['data']['id']}"
-        print(message)
+        print(f"Successfully posted tweet with ID: {result['data']['id']}")
         update_log(quote)
-        return jsonify({"success": True, "message": message}), 200
-    else:
-        return jsonify({"success": False, "message": "Failed to post tweet"}), 500
-
 
 if __name__ == "__main__":
     main()
