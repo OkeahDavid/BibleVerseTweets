@@ -1,9 +1,5 @@
 # BibleVerseTweets
-Feel free to follow the twitter page:
 
-
-https://twitter.com/BibleBotTweets
----
 
 ## Description
 
