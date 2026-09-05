@@ -1,0 +1,16 @@
+# Railway deploy. Same shape as fpl-bot / forex-signal-bot: Railway
+# auto-detects the Dockerfile, this pins the builder and sets a restart
+# policy so the worker comes back if it crashes.
+#
+# Set in the dashboard, not here:
+#   - a Volume mounted at /data (posted_verses.log; Railway rejects the
+#     Dockerfile VOLUME instruction, so it cannot be declared in the image)
+#   - TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID
+
+[build]
+builder = "DOCKERFILE"
+dockerfilePath = "Dockerfile"
+
+[deploy]
+restartPolicyType = "ALWAYS"
+restartPolicyMaxRetries = 10
